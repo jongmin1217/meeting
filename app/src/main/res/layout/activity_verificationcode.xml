@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="이메일 인증코드입력"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_marginBottom="100dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/certificationCodeInput"
+        android:hint="인증코드"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:password="true"
+        tools:ignore="Deprecated"/>
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:text="확인"
+        android:id="@+id/btnOk"
+        android:background="@drawable/button_custom"
+        android:textColor="#000000"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/certificationCodeInput"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        android:clickable="true"
+        android:onClick="btnOk"/>
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:text="취소"
+        android:id="@+id/btnCancel"
+        android:background="@drawable/button_custom"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="@+id/btnOk"
+        app:layout_constraintEnd_toEndOf="@+id/certificationCodeInput"
+        app:layout_constraintTop_toBottomOf="@+id/certificationCodeInput"
+        android:clickable="true"
+        android:onClick="btnCancel"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

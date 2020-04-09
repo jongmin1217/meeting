@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area">
+        <item>지역</item>
+        <item>서울</item>
+        <item>경기도</item>
+        <item>인천</item>
+        <item>충청도</item>
+        <item>경상도</item>
+        <item>전라도</item>
+        <item>강원도</item>
+        <item>제주</item>
+    </string-array>
+    <string-array name="year">
+        <item>년도</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+    </string-array>
+    <string-array name="month">
+        <item>달</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="day">
+        <item>날</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="gender">
+        <item>성별</item>
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+    <string-array name="height">
+        <item>키</item>
+        <item>140</item>
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>148</item>
+        <item>149</item>
+        <item>150</item>
+        <item>151</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+        <item>161</item>
+        <item>162</item>
+        <item>163</item>
+        <item>164</item>
+        <item>165</item>
+        <item>166</item>
+        <item>167</item>
+        <item>168</item>
+        <item>169</item>
+        <item>170</item>
+        <item>171</item>
+        <item>172</item>
+        <item>173</item>
+        <item>174</item>
+        <item>175</item>
+        <item>176</item>
+        <item>177</item>
+        <item>178</item>
+        <item>179</item>
+        <item>180</item>
+        <item>181</item>
+        <item>182</item>
+        <item>183</item>
+        <item>184</item>
+        <item>185</item>
+        <item>186</item>
+        <item>187</item>
+        <item>188</item>
+        <item>189</item>
+        <item>190</item>
+        <item>191</item>
+        <item>192</item>
+        <item>193</item>
+        <item>194</item>
+        <item>195</item>
+        <item>196</item>
+        <item>197</item>
+        <item>198</item>
+        <item>199</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="form">
+        <item>몸매</item>
+        <item>마름</item>
+        <item>조금마름</item>
+        <item>보통</item>
+        <item>통통함</item>
+        <item>뚱뚱함</item>
+        <item>글래머</item>
+        <item>근육질</item>
+    </string-array>
+    <string-array name="smoke">
+        <item>흡연여부</item>
+        <item>흡연</item>
+        <item>비흡연</item>
+    </string-array>
+    <string-array name="drink">
+        <item>음주여부</item>
+        <item>가끔마심</item>
+        <item>자주마심</item>
+        <item>맨날마심</item>
+    </string-array>
+    <string-array name="videoResolutions">
+        <item>Default</item>
+        <item>4K (3840 x 2160)</item>
+        <item>Full HD (1920 x 1080)</item>
+        <item>HD (1280 x 720)</item>
+        <item>VGA (640 x 480)</item>
+        <item>QVGA (320 x 240)</item>
+    </string-array>
+
+    <string-array name="videoResolutionsValues">
+        <item>Default</item>
+        <item>3840 x 2160</item>
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 480</item>
+        <item>320 x 240</item>
+    </string-array>
+
+    <string-array name="cameraFps">
+        <item>Default</item>
+        <item>30 fps</item>
+        <item>15 fps</item>
+    </string-array>
+
+    <string-array name="startBitrate">
+        <item>Default</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="videoCodecs">
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>H264 Baseline</item>
+        <item>H264 High</item>
+    </string-array>
+
+    <string-array name="audioCodecs">
+        <item>OPUS</item>
+        <item>ISAC</item>
+    </string-array>
+
+    <string-array name="speakerphone">
+        <item>Auto (proximity sensor)</item>
+        <item>Enabled</item>
+        <item>Disabled</item>
+    </string-array>
+
+    <string-array name="speakerphoneValues">
+        <item>auto</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+    <string-array name="roomListContextMenu">
+        <item>Remove favorite</item>
+    </string-array>
+</resources>

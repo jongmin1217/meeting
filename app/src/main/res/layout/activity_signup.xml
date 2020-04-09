@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/emailInput"
+        android:hint="Email"
+        android:layout_marginTop="151dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        app:layout_constraintStart_toStartOf="@+id/emailInput"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/passwordInput"
+        android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberInput"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumberInput"
+        android:password="true"
+        tools:ignore="Deprecated"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/passwordConfirmInput"
+        android:hint="Password confirm"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput"
+        app:layout_constraintStart_toStartOf="@+id/passwordInput"
+        android:password="true"
+        tools:ignore="Deprecated"/>
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:text="확인"
+        android:id="@+id/ok"
+        android:background="@drawable/button_custom"
+        android:textColor="#000000"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/passwordConfirmInput"
+        app:layout_constraintEnd_toStartOf="@+id/cancel"
+        android:clickable="true"
+        android:onClick="btnOk"/>
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:text="취소"
+        android:id="@+id/cancel"
+        android:background="@drawable/button_custom"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="@+id/ok"
+        app:layout_constraintEnd_toEndOf="@+id/passwordConfirmInput"
+        app:layout_constraintTop_toBottomOf="@+id/passwordConfirmInput"
+        android:clickable="true"
+        android:onClick="btnCancel"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
